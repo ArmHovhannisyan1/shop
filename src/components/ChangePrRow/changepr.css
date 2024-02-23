@@ -1,0 +1,13 @@
+#products .dots-container {
+    cursor: pointer;
+    width: 50px;
+    margin: 0 3px;
+}
+
+#products .dots-container .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(186, 182, 182);
+    display: inline-block;
+}

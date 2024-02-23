@@ -1,0 +1,111 @@
+.swiper,
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#bgSlide .swiper-slide {
+    opacity: .3;
+    transition: opacity 1s;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+#bgSlide .swiper-wrapper {
+    height: 80vh;
+}
+
+#bgSlide .swiper-slide-active {
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    border: white 2px solid !important;
+    background-color: transparent !important;
+}
+
+.swiper-pagination-bullet {
+    padding: 4px;
+    background-color: #ffffff49;
+    border: solid 2px transparent;
+    opacity: 1;
+}
+
+.swiper .item {
+    padding: 0 30px;
+}
+
+#blogPosts h5 a {
+    font-size: 25px;
+    color: black;
+    margin: 5px 0;
+    padding: 0;
+}
+
+#blogPosts h5 a:hover {
+    color: #006699;
+}
+
+#blogPosts .wrapper p,
+#blogPosts p a:hover,.item.abs {
+    color: black;
+}
+
+#blogPosts p a {
+    color: #006699;
+    padding: 0;
+}
+
+#blogPosts .span {
+    padding: 15px 0;
+}
+
+#blogPosts .about-post,
+#cart .cart-totals .row {
+    margin: 10px 0;
+}
+
+#blogPosts .hLine {
+    background-color: black;
+    height: .1pt;
+    width: 100%;
+}
+
+#sponsor .swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#sponsor .swiper-slide {
+    padding: 0px 25px;
+}
+
+#sponsor {
+    border-top: black .1pt solid;
+}
+
+#quot {
+    background-color: #97545b;
+    color: white;
+}
+
+#quot p {
+    padding: 35px 0;
+}
+
+#quot .wrapper,
+#cart .cart-totals {
+    padding: 55px 0;
+}
+
+#quot .icon {
+    font-size: 35px;
+}

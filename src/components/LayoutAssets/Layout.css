@@ -1,0 +1,368 @@
+header {
+    background-color: transparent;
+    color: white;
+    transition: all linear .1s;
+    padding: 10px 25px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black,
+header:hover .menu-lines .hLine,
+footer {
+    background-color: #000000 !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+header:hover {
+    background-color: white;
+    color: black;
+}
+
+header:hover .logo {
+    filter: invert(0) sepia(0) hue-rotate(0deg) brightness(0) !important;
+}
+
+nav>ul {
+    margin: 0;
+}
+
+header:hover li:hover::after {
+    background-color: black;
+}
+
+header ul li,
+#cart .row:nth-child(2) .btn-parent:last-child {
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+header ul .li-parent>a {
+    position: relative;
+    padding: 25px 0;
+}
+
+header ul .li-parent>a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition: all 0.3s ease;
+    right: 0;
+}
+
+header ul .li-parent:hover>a::after {
+    width: 100%;
+    left: 0;
+    background-color: #000000;
+}
+
+footer a,
+footer p {
+    padding-left: 0;
+    transition: .2s;
+}
+
+footer a:hover,
+footer p:hover,
+footer span a {
+    color: white;
+}
+
+footer .wrapper {
+    color: gray;
+}
+
+footer h6 {
+    color: white;
+    font-size: 14px;
+}
+
+footer p {
+    color: gray;
+    padding: 10px 0;
+}
+
+footer input,
+#cart .input-wrapper input,
+#modal-root .input-wrapper,
+#product .input-wrapper {
+    padding: 15px 5px;
+}
+
+footer .btn,
+#cart .btn,
+#modal-root .btn {
+    padding: 15px 40px !important;
+}
+
+footer .container>.row:last-child {
+    border-top: 1px solid gray;
+}
+
+footer .container>.row:first-child {
+    padding: 45px 0;
+}
+
+footer input,
+footer .btn {
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+}
+
+footer .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+footer+.rel {
+    transition: .2s;
+}
+
+.dropdown,
+.double-dropdown {
+    background: url('/images/header-bg1.jpg') no-repeat;
+    background-position: center;
+    position: absolute;
+    transform: scaleY(0);
+    transition: all linear .1s;
+    visibility: hidden;
+    opacity: 0;
+    padding: 7px 0 15px 15px;
+    /* top: 100%; */
+    left: 0;
+    transition: .5s;
+    transform-origin: 0 0;
+    height: auto;
+    min-width: 750px;
+}
+
+.dropdown-small>li {
+    display: block;
+    margin-right: 0;
+}
+
+.dropdown-small,
+.double-dropdown {
+    background: white;
+    min-width: 17vw;
+}
+
+.double-dropdown {
+    left: 100%;
+    top: 0;
+}
+
+.dropdown-other {
+    background: url('/images/header-bg2.jpg') no-repeat;
+    min-width: 100vw;
+    background-size: cover;
+}
+
+.li-parent.dropdown-parent:hover .dropdown,
+.double-dropdown-parent:hover .double-dropdown {
+    transform: scaleY(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropdown-mid li > a:hover,
+.dropdown-small>li > a:hover,
+.double-dropdown>li > a:hover,
+.dropdown-other-title-parent li > a:hover {
+    color: #069;
+}
+
+.dropdown-title,
+.dropdown-title li,
+.dropdown-other-title {
+    transition: .3s;
+    font-size: 17px;
+}
+
+.dropdown-other-title~li {
+    transition: .3s;
+}
+
+.dropdown-other-title~li:hover {
+    transform: translateX(5px);
+}
+
+.rel .fixed-other {
+    position: fixed;
+    color: #555555;
+    z-index: 21;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    padding: 7px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+#preload {
+    background: rgb(255, 255, 255) url('https://i.gifer.com/ZKZg.gif') no-repeat center center;
+    background-size: 5%;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 212;
+}
+
+#cart .cart-totals .row {
+    border: 1px gray solid;
+    margin: 5px 0;
+    padding: 15px 5px;
+}
+
+#cart .row:nth-child(2)>.wrapper {
+    padding-top: 15px;
+}
+
+#cart .submit-wrapper {
+    margin: 0 0 0 15px;
+}
+
+li.tablet.f-column {
+    margin: 0;
+    padding: 0;
+}
+
+.cart-icon div,
+.wish-icon div {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.filter-icon div {
+    position: absolute;
+    top: -8px;
+    right: -37px;
+}
+
+.fa-Heart {
+    color: white;
+    stroke: black;
+    stroke-width: 25px;
+    height: 3em;
+}
+
+.active {
+    /* width: 24px; */
+    color: black;
+}
+
+#return-page-wish .row,
+#return-page-cart .row {
+    min-height: 50vh;
+}
+
+.AccordionContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+}
+
+.AccordionContent.visible {
+    max-height: 1700px;
+}
+
+.header-search {
+    width: 100%;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    z-index: 55;
+    height: 100%;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.searchOpen {
+    top: 0;
+}
+
+.header-search .close {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    font-size: 25px;
+}
+
+.header-search form>.rel>.icon {
+    position: absolute;
+    top: 11px;
+    color: #5a5a5a;
+}
+
+.header-search form input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 25px;
+}
+
+.header-search ul.row {
+    padding-bottom: 20px;
+}
+
+.header-search form .search {
+    left: 5px;
+}
+
+.header-search form .remove {
+    right: 5px;
+}
+
+#products>.container>.row:first-child span p {
+    font-weight: bolder;
+}
+
+/* .product-item .wrapper-hover img{
+    opacity: 0;
+    transition: .3s;
+} */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-tooltip:hover::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    font-size: 13px;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0.9;
+    visibility: visible;
+}
+
+.custom-tooltip::before {
+    content: '';
+    position: absolute;
+    height: 8px;
+    border-style: solid;
+    border-width: 0 6px 10px 6px;
+    padding: 5px 10px;
+    border-color: transparent transparent black transparent;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.clicked{
+    transform: scaleY(0) !important;
+}

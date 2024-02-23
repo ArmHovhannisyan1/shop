@@ -1,0 +1,25 @@
+.select-parent li {
+    padding: 7px;
+    background-color: white;
+}
+
+.select-option {
+    cursor: pointer;
+}
+
+.select-parent {
+    position: absolute;
+    z-index: 21;
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+}
+
+li.selected,
+.selected-hover {
+    background-color: rgba(235, 229, 229) !important;
+}
+
+.select-icon,
+.views,
+#products .dots-container .dot {
+    margin: 0 5px;
+}

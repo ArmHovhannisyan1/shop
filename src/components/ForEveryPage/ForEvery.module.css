@@ -1,0 +1,32 @@
+.forEvery {
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    color: white;
+}
+
+.container {
+    height: 70vh;
+}
+
+.row {
+    height: inherit;
+}
+
+.icon,
+.link {
+    color: #d9d4d4;
+}
+
+.icon {
+    padding-right: 7px;
+}
+
+.title{
+    font-size: 3.5em;
+    padding-bottom: 15px;
+}

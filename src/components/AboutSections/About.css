@@ -1,0 +1,94 @@
+#history p,
+#team .row {
+    color: black;
+    padding: 35px 0;
+}
+
+#history .hLine,
+#team .hLine {
+    background-color: black;
+}
+
+#history span,
+#team span {
+    color: gray;
+}
+
+#history p:last-child {
+    padding: 35px 0 0 0;
+}
+
+#gallery .row.f-revColumn:first-child {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-right: 8px;
+}
+
+#gallery .row.f-row .col:first-child{
+    margin-right: 12px;
+}
+
+#gallery .col .image {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+#gallery .col .image:hover {
+    filter: grayscale(0);
+}
+
+#experience .wrapper {
+    text-align: center;
+    width: 50%;
+    padding: 50px 15px;
+}
+
+#experience .wrapper:nth-child(2) {
+    border: none;
+    border-left: 1px solid rgba(0, 0, 0, 0.186);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.186);
+}
+
+#experience .wrapper:nth-child(3) {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.186);
+    border-top: 1px solid rgba(0, 0, 0, 0.186);
+}
+
+#experience h4 {
+    padding: 15px 0;
+}
+
+#shipping {
+    min-height: 100vh;
+    background: fixed url('/images/shipping.jpg');
+    color: white;
+}
+
+#shipping .container {
+    height: 100vh;
+}
+
+#shipping .row {
+    height: inherit;
+}
+
+#team,#history{
+    overflow-x: hidden;
+}
+
+#team .wrapper {
+    text-align: center;
+    width: 30%;
+}
+
+#team .image,
+#return-page-wish span,
+#return-page-cart span{
+    padding-bottom: 25px;
+}

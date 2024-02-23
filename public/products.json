@@ -1,0 +1,549 @@
+[
+  {
+    "id": 1,
+    "title": "Form Armchair Walnut Base",
+    "price": 200,
+    "discount": 150,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product1.jpg",
+    "hoverimage": "product1hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room, Decor",
+    "color": "Brown",
+    "brand": "Clements Ribeiro"
+  },
+  {
+    "id": 2,
+    "title": "Utopia Towels Kitchen",
+    "price": 70,
+    "discount": 65,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product2.jpg",
+    "hoverimage": "product2hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen",
+    "color": "Gray, Blue",
+    "brand": "Georgine"
+  },
+  {
+    "id": 3,
+    "title": "Organic Chair High black",
+    "price": 70,
+    "discount": 55,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product3.jpg",
+    "hoverimage": "product3hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room",
+    "color": "black",
+    "brand": "Dominique Aurientis"
+  },
+  {
+    "id": 4,
+    "title": "Organic Chair High white",
+    "price": 70,
+    "discount": 50,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product4.jpg",
+    "hoverimage": "product4hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room",
+    "color": "white",
+    "brand": "Dominique Aurientis"
+  },
+  {
+    "id": 5,
+    "title": "Bottle Grinder with Steel Lid",
+    "price": 700,
+    "discount": 695,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product5.jpg",
+    "hoverimage": "product5hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen, Outdoor",
+    "color": "white, black, blue",
+    "brand": "Jean-Paul Gaultier"
+  },
+  {
+    "id": 6,
+    "title": "Antique Chinese Armchairs",
+    "price": 200,
+    "discount": 180,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product6.jpg",
+    "hoverimage": "product6hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Outdoor, Living Room",
+    "color": "gray",
+    "brand": "Matthew Christopher"
+  },
+  {
+    "id": 7,
+    "title": "Living Room Lighting",
+    "price": 60,
+    "discount": 20,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product7.jpg",
+    "hoverimage": "product7hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting, Living Room",
+    "color": "gold, white",
+    "brand": "Georgine"
+  },
+  {
+    "id": 9,
+    "title": "Form Armchair Walnut Base",
+    "price": 150,
+    "discount": 100,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product1.jpg",
+    "hoverimage": "product1hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room, Decor",
+    "color": "brown",
+    "brand": "Clements Ribeiro"
+  },
+  {
+    "id": 10,
+    "title": "Utopia Towels Kitchen",
+    "price": 250,
+    "discount": 245,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product2.jpg",
+    "hoverimage": "product2hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen",
+    "color": "gray, blue",
+    "brand": "Georgine"
+  },
+  {
+    "id": 11,
+    "title": "Organic Chair High black",
+    "price": 1000,
+    "discount": 800,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product3.jpg",
+    "hoverimage": "product3hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room",
+    "color": "black",
+    "brand": "Dominique Aurientis"
+  },
+  {
+    "id": 12,
+    "price": 200,
+    "title": "Organic Chair High white",
+    "discount": 140,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product4.jpg",
+    "hoverimage": "product4hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room",
+    "color": "white",
+    "brand": "Dominique Aurientis"
+  },
+  {
+    "id": 13,
+    "title": "Bottle Grinder with Steel Lid",
+    "price": 130,
+    "discount": 120,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product5.jpg",
+    "hoverimage": "product5hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen, Outdoor",
+    "color": "white, black, blue",
+    "brand": "Jean-Paul Gaultier"
+  },
+  {
+    "id": 14,
+    "title": "Antique Chinese Armchairs",
+    "price": 80,
+    "discount": 50,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product6.jpg",
+    "hoverimage": "product6hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Outdoor, Living Room",
+    "color": "gray",
+    "brand": "Matthew Christopher"
+  },
+  {
+    "id": 15,
+    "title": "Living Room Lighting",
+    "price": 120,
+    "discount": 100,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product7.jpg",
+    "hoverimage": "product7hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting, Living Room",
+    "color": "gold, white",
+    "brand": "Georgine"
+  },
+  {
+    "id": 17,
+    "title": "Blue chairs",
+    "price": 3100,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product9.jpg",
+    "hoverimage": "product9hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Chair, Outdoor",
+    "color": "Blue"
+  },
+  {
+    "id": 18,
+    "title": "Black chair",
+    "price": 1400,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product10.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Chair, Living room",
+    "color": "Black"
+  },
+  {
+    "id": 19,
+    "title": "Table",
+    "price": 2500,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product11.jpg",
+    "hoverimage": "product11hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Table, Bedroom",
+    "color": "Beige",
+    "brand": "Chrome Hearts"
+  },
+  {
+    "id": 20,
+    "title": "Crystal table",
+    "price": 4000,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product12.jpg",
+    "hoverimage": "product12hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Table, Living room",
+    "color": "white",
+    "brand": "Jean-Paul Gaultier"
+  },
+  {
+    "id": 21,
+    "title": "Round table",
+    "price": 999.99,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product13.jpg",
+    "hoverimage": "product13hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Table, Bedrom",
+    "color": "Brown"
+  },
+  {
+    "id": 22,
+    "title": "Beige chair",
+    "price": 700,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product14.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Chair, Bedroom",
+    "color": "Beige"
+  },
+  {
+    "id": 23,
+    "title": "Sofa",
+    "price": 9990,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product15.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Sofa, Living room",
+    "color": "gray"
+  },
+  {
+    "id": 24,
+    "title": "Chair",
+    "price": 400,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product16.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Chair, Outdoor",
+    "color": "white"
+  },
+  {
+    "id": 25,
+    "title": "Bed",
+    "price": 8500,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product17.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom",
+    "color": "gray",
+    "brand": "John Galliano"
+  },
+  {
+    "id": 26,
+    "title": "Bed",
+    "price": 4897,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product18.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom",
+    "color": "Blue, white"
+  },
+  {
+    "id": 27,
+    "title": "Lamp",
+    "price": 6547,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product19.jpg",
+    "hoverimage": "product19hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting",
+    "color": "Brown"
+  },
+  {
+    "id": 28,
+    "title": "Lamp",
+    "price": 2030,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product20.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting, Living Room",
+    "color": "gold"
+  },
+  {
+    "id": 29,
+    "title": "Lamp",
+    "price": 1999.99,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product21.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting, Living Room",
+    "color": "gray"
+  },
+  {
+    "id": 30,
+    "title": "Lamp",
+    "price": 1500,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product22.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting, Kitchen",
+    "color": "White"
+  },
+  {
+    "id": 31,
+    "title": "Lamp",
+    "price": 4080.12,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product23.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Lamp, Lighting, Outdoor",
+    "color": "Black, orange"
+  },
+  {
+    "id": 32,
+    "title": "Kitchen Table",
+    "price": 7777.77,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product24.jpg",
+    "hoverimage": "product24hover.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen",
+    "color": "white"
+  },
+  {
+    "id": 33,
+    "title": "Kitchen sink",
+    "price": 5000,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product26.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen",
+    "color": "brown, gray"
+  },
+  {
+    "id": 34,
+    "title": "Decor",
+    "price": 1000,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product27.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room, Decor",
+    "color": "gray, white"
+  },
+  {
+    "id": 35,
+    "title": "Kitchen gear",
+    "price": 1700,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product25.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Kitchen",
+    "color": "gray, white"
+  },
+  {
+    "id": 36,
+    "title": "Decor",
+    "price": 2700,
+    "discount": 350,
+    "review": {
+      "quantity": 3,
+      "star": 5
+    },
+    "image": "product28.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+    "availability": "In Stock",
+    "category": "Bedroom, Living Room, Decor",
+    "color": "Blue"
+  }
+]

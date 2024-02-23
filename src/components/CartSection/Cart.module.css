@@ -1,0 +1,28 @@
+td.image{
+    width: 120px;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+.table th,.table td{
+    border-top: 1px solid rgba(186, 185, 185, 0.712);
+    border-bottom: 0;
+    border: 1px solid rgba(186, 185, 185, 0.712);
+}
+
+.overflow{
+    overflow-x: auto;
+}
+
+.controlQuantity button{
+    width: 24px;
+    height: 24px;
+    background-color: #f1f1f5;
+    border-radius: 4px;
+}
+
+.controlQuantity span{
+    padding: 0 5px;
+}

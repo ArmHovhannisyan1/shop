@@ -1,0 +1,25 @@
+#write-us .item,
+.item.abs {
+    color: black;
+}
+
+#write-us input,
+textarea {
+    width: 100%;
+    padding: 15px 7px;
+    margin: 10px 0;
+}
+
+#write-us p:first-child {
+    color: gray;
+}
+
+#write-us h4,
+#write-us .col {
+    padding: 10px 0 25px;
+}
+
+#write-us span {
+    color: #006699;
+    font-size: 17px;
+}

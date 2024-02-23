@@ -1,0 +1,22 @@
+#register .input-wrapper input,
+#login .input-wrapper input {
+    width: 100%;
+    padding: 13px 0;
+}
+
+.submit-wrapper input {
+    padding: 20px 0;
+}
+
+#register .input-wrapper,
+#login .input-wrapper {
+    padding: 10px 0;
+}
+
+form div+p a {
+    text-decoration: underline;
+}
+
+.error-wrapper{
+    height: 21px;
+}
